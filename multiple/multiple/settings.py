@@ -77,15 +77,15 @@ WSGI_APPLICATION = 'multiple.wsgi.application'
 
 DATABASES = {
     'default': {},
-     'user_db': {
+    'user_db': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'user.db.sqlite3',
     },
-     'student_db': {
+    'student_db': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'student.db.sqlite3',
     },
-     'teacher_db': {
+    'teacher_db': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'teacher.db.sqlite3',
     }
